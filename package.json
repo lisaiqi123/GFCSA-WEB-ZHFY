@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "uview-ui": "^2.0.36"
+  },
+	"uni-app": {
+			"scripts": {
+				"dev": {
+					"title": "开发版",
+					"env": {
+						"UNI_PLATFORM": "mp-weixin",
+						"VUE_APP_BASE_URL":"https://mockapi.eolink.com/QwvnmXtd"
+					}
+				},
+				"pre": {
+					"title": "测试版",
+					"env": {
+						"UNI_PLATFORM": "mp-weixin",
+						"VUE_APP_BASE_URL":"https://mockapi.eolink.com/"
+					}
+				},
+				"prod": {
+					"title": "正式版",
+					"env": {
+						"UNI_PLATFORM": "mp-weixin",
+						"VUE_APP_BASE_URL":"https://mockapi.eolink.com/QwvnmXtdabc56a51f6294ad62b3b0c485e605f3bdd63ccd"
+					}
+				}
+			}
+		}
+}
