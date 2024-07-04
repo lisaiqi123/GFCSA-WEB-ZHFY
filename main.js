@@ -1,6 +1,6 @@
 import App from './App'
 import Vue from 'vue'
-import './uni.promisify.adaptor'
+// import './uni.promisify.adaptor'
 import store from './store';
 import {setStorage} from './common/storage.js';
 
